@@ -255,12 +255,12 @@
 						<h3>Selector de idioma</h3>
 						<pre><code><!-- Language -->
 < ?php $languages = apply_filters( 'wpml_active_languages', NULL, 'orderby=id&order=desc' ); ?>
-	< ?php if (!empty($languages)){?>
+	< ?php if (!empty($languages)){ ?>
 		< ?php foreach( $languages as $language ): ?>
 			< ?php if( $language['active'] == 0 ){ ?>
 				<div class="language">
-					<a href="<?=$language['url'];?>" title="<?=$language['native_name'];?>">
-						< ?=$language['language_code'];?>
+					<a href="< ?= $language['url']; ?>" title="< ?= $language['native_name']; ?>">
+						< ?= $language['language_code']; ?>
 					</a>
 				</div>
 			< ?php }?>
@@ -271,11 +271,11 @@
 						<h3>Eliminar WPML</h3>
 						<p>WPML implementa una opción para poder eliminar todo </p>
 						<p>WPML > Soporte > Solución de problemas > Reiniciar</p>
-						<a href="img/wpml-delete.png" target="_blank" title="Eliminar WPML">
-							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="assets/img/wpml-delete.png" title="Eliminar WPML" alt="Eliminar WPML" />
+						<a href="assets/img/wpml-delete.png" target="_blank" title="Eliminar WPML">
+							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="assets/img/wpml-delete.png" title="Eliminar WPML" alt="Eliminar WPML" style="width: 45%; height: auto; float: left" />
 						</a>
-						<a href="assets/img/wpml-delete-2.png" target="_blank" title="Eliminar WPML">
-							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="assets/img/wpml-delete-2.png" title="Eliminar WPML" alt="Eliminar WPML" />
+						<a href="assets/assets/img/wpml-delete-2.png" target="_blank" title="Eliminar WPML">
+							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="assets/img/wpml-delete-2.png" title="Eliminar WPML" alt="Eliminar WPML" style="width: 45%; height: auto; float: right" />
 						</a>
 					</section>
 				</section>
