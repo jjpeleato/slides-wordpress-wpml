@@ -1,13 +1,13 @@
-# Slides: Starter boilerplate
+# Slides: Around the WorldPress.
 
-Short or long description.
+Presentation made for a WordPress multi-language workshop.
 
 ## Environment
 
-- LOCAL: http://web.slidesstarter.lndo.site/
+- LOCAL: http://web.wordpreswpml.lndo.site/
 - DEV: ~
 - PRE: ~
-- PRO: ~
+- PRO: https://jjpeleato.com/courses/wpmlwordpress/
 
 ## Project
 
